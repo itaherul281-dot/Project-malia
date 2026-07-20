@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+< <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Sweetheart 🌷</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- Welcome Page -->
+
+<section id="welcome" class="page">
+
+<h1>
+Hey, Sweetheart 💋
+</h1>
+
+<p>
+A little surprise is waiting for you... 🤍🌷
+</p>
+
+
+<button onclick="showPassword()">
+Open Your Surprise 💖
+</button>
+
+</section>
+
+
+
+<!-- Password Page -->
+
+<section id="password" class="page hidden">
+
+<h1>
+A Secret Code 🔐
+</h1>
+
+<p>
+Only my Sweetheart knows this... 🌷
+</p>
+
+
+<input 
+type="password" 
+id="passcode" 
+placeholder="Enter code"
+>
+
+
+<p id="error"></p>
+
+
+<button onclick="checkPassword()">
+Unlock 💖
+</button>
+
+</section>
+
+
+
+
+<!-- Birthday Page -->
+
+<section id="birthday" class="page hidden">
+
+
+<h1>
+Happy Birthday Sweetheart 🎂🌷
+</h1>
+
+
+<p>
+
+Today is all about celebrating you.
+
+May your life always be filled with happiness,
+success, love and beautiful memories.
+
+🤍
+
+</p>
+
+
+<button onclick="openMenu()">
+See My Surprise 🎁
+</button>
+
+
+</sectio>
+
+<!-- Surprise Menu -->
+
+<section id="menu" class="page hidden">
+
+<h1>
+Choose Your Surprise 💖
+</h1>
+
+<div class="menu-grid">
+
+<button onclick="showPage('memories')">
+📸 Our Memories
+</button>
+
+<button onclick="showPage('letter')">
+💌 A Letter From Me
+</button>
+
+<button onclick="showPage('openwhen')">
+💌 Open When...
+</button>
+
+<button onclick="showPage('song')">
+🎵 Our Song
+</button>
+
+<button onclick="showPage('gift')">
+🎁 Open Your Gift
+</button>
+
+<button onclick="showPage('final')">
+🎉 Final Surprise
+</button>
+
+</div>
+
+</section>
+
+
+
+<!-- Memories -->
+
+<section id="memories" class="page hidden">
+
+<h1>
+📸 Our Memories
+</h1>
+
+<p>
+Every picture tells a story...
+Every memory holds a smile. 🤍
+</p>
+
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+<img src="images/photo4.jpg">
+<img src="images/photo5.jpg">
+<img src="images/photo6.jpg">
+<img src="images/photo7.jpg">
+<img src="images/photo8.jpg">
+<img src="images/photo9.jpg">
+<img src="images/photo10.jpg">
+
+</div>
+
+
+<button onclick="showPage('menu')">
+⬅ Back
+</button>
+
+</section>
+
+
+
+
+<!-- Letter -->
+
+<section id="letter" class="page hidden">
+
+<h1>
+💌 A Letter From Me
+</h1>
+
+
+<div class="letter-box">
+
+<p>
+
+Happy Birthday, Sweetheart 💋🌷
+
+Thank you for being my best friend and one of the most special people in my life.
+
+Thank you for every laugh, every memory, and every beautiful moment we shared.
+
+May Allah bless your life with happiness, success and peace.
+
+Always keep smiling and believe in yourself.
+
+Happy Birthday once again 🤍
+
+Forever your Bestie 🌷
+
+</p>
+
+</div>
+
+
+<button onclick="showPage('menu')">
+⬅ Back
+</button>
+
+
+</section>
+<<!-- Open When Section -->
+
+<section id="openwhen" class="page hidden">
+
+<h1>
+💌 Open When...
+</h1>
+
+
+<div class="letter-card">
+
+<h2>
+🌸 Open When You're Happy
+</h2>
+
+<p>
+Keep smiling, Sweetheart. Your happiness is one of my favorite things to see. 🤍
+</p>
+
+</div>
+
+
+
+<div class="letter-card">
+
+<h2>
+🫂 Open When You Miss Me
+</h2>
+
+<p>
+No matter how far we are, our memories will always keep us close. 🌷
+</p>
+
+</div>
+
+
+
+<div class="letter-card">
+
+<h2>
+🌙 Open When You Feel Low
+</h2>
+
+<p>
+Remember how strong and amazing you are. Never give up. I always believe in you. 💖
+</p>
+
+</div>
+
+
+<button onclick="showPage('song')">
+🎵 Continue
+</button>
+
+
+</section>
+
+
+
+
+<!-- Song Section -->
+
+<section id="song" class="page hidden">
+
+<h1>
+🎵 Our Song
+</h1>
+
+<p>
+Some memories become more beautiful with music. 🌷
+</p>
+
+
+<a href="YOUR_YOUTUBE_SONG_LINK" target="_blank">
+
+<button>
+💖 Play Our Song
+</button>
+
+</a>
+
+
+<button onclick="showPage('gift')">
+Continue 🎁
+</button>
+
+
+</section>
+
+
+
+
+
+<!-- Gift Section -->
+
+<section id="gift" class="page hidden">
+
+<h1>
+🎁 Open Your Gift
+</h1>
+
+
+<p>
+
+I couldn't wrap happiness in a box...
+so I wrapped my prayers, memories and love instead. 🤍
+
+</p>
+
+
+<button onclick="showPage('final')">
+Open Gift 💝
+</button>
+
+
+</section>
+
+
+
+
+<!-- Final Surprise -->
+
+<section id="final" class="page hidden">
+
+<h1>
+🌷 Final Surprise
+</h1>
+
+
+<p>
+
+Sweetheart 💋
+
+Thank you for being my best friend and one of the most beautiful parts of my life.
+
+Happy Birthday once again. 🤍
+
+</p>
+
+
+<h2>
+Forever & Always 🌷
+</h2>
+
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>>
